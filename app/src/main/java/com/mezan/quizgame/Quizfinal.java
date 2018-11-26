@@ -76,12 +76,7 @@ public class Quizfinal extends AppCompatActivity {
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
-    }
-
-    @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        finish();
     }
 }
